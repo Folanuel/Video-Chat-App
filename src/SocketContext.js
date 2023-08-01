@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:3030');
+const socket = io('https://video-server-1wg8.onrender.com/');
 
 
 const ContextProvider = ({ children }) => {
